@@ -40,6 +40,11 @@ p {
   word-spacing: .15rem;
 }
 
+/* Pricing cards */
+.card-pricing {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
 
 /* Jumbotron */
 
@@ -50,7 +55,7 @@ p {
 }
 
 #home-banner {
-  margin: 95px 0 0;
+  margin: 65px 0 0;
   position: relative;
 }
 
@@ -76,7 +81,6 @@ p {
 
 /* Video section */
 .video-section {
-  text-align: center;
   margin: 30px 0;
   padding: 15px 0;
   background: #581317;
@@ -118,9 +122,7 @@ p {
 
 
 /*Navigation bar*/
-.navbar {
-  padding: 1.5rem 0 1.5rem;
-}
+
 
 .navbar-dark .navbar-brand {
   color: #7a92a2;
@@ -132,11 +134,13 @@ p {
   font-weight: bold;
   margin-left: 5px;
 }
+
 .nav-img {
   width: 50%;
 }
+
 .nav-item {
-  padding: 0 18px;
+  align-items: right;
 }
 
 .nav-link {
@@ -205,9 +209,11 @@ a {
   object-fit: cover;
   border-radius: 10px;
 }
+
 .card {
   border: none;
 }
+
 /* Project html */
 .table {
   background: #7a92a2;
@@ -233,7 +239,7 @@ a {
 /* Copyright section */
 .copyright_part {
   background-color: #303030;
-  margin: 10px;
+  padding: 20px;
 }
 
 .footer-social {
@@ -287,6 +293,7 @@ a {
   width: 100%;
   border-radius: 3%;
 }
+
 .actions-section {
   margin: 30px 0;
   background-color: #581317;
