@@ -51,17 +51,18 @@ p {
 .jumbotron {
   background-size: cover;
   height: 100vh;
+  background-position: center 20%;
   text-align: left;
 }
 
 #home-banner {
-  margin: 65px 0 0;
+  margin-top: 50px;
   position: relative;
 }
 
 .jumbotron-container {
   position: relative;
-  margin-top: 130px;
+  margin-top: 300px;
   z-index: 100;
 }
 
